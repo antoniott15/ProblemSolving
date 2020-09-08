@@ -4,7 +4,6 @@ def minimumBribes(q):
     diference = 0
     newArr = sorted(newArr)
     for elements in range(0,len(q)):
-        print(q[elements], newArr[elements])
         if q[elements] != newArr[elements]:
             diference = q[elements] - newArr[elements]
             if diference <= 1:
@@ -18,6 +17,6 @@ def minimumBribes(q):
     print(countingBribes)      
 
 
-a = [1,2,5,3,7,8,6,4]
+a = [7,1,3,4,1,7]
 
 minimumBribes(a)
