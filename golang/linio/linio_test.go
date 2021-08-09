@@ -10,7 +10,7 @@ import (
 func TestLinioTest(t *testing.T) {
 	testCases := []struct {
 		input  uint
-		output string
+		result string
 	}{
 		{1, "1"},
 		{2, "2"},
@@ -46,7 +46,7 @@ func TestLinioTest(t *testing.T) {
 
 	for _, test := range testCases {
 		output := LinioTest(test.input)
-		if !assert.Equal(t, test.output, output) {
+		if !assert.Equal(t, test.result, output) {
 			t.Fail()
 		}
 	}
