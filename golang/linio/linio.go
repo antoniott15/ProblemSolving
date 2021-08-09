@@ -32,6 +32,11 @@ func LinioTest(input uint) string {
 	return resultForFirst15[res]
 }
 
+/**
+ * getResultOfFirst15
+ * return the first 15 strings results that we want
+ * for memoization reasons
+ */
 func getResultOfFirst15() [15]string {
 	return [15]string{
 		"Linianos",
@@ -52,6 +57,11 @@ func getResultOfFirst15() [15]string {
 	}
 }
 
+/**
+ * getFirst15
+ * return the first 15 boolean results
+ * that we want
+ */
 func getFirst15() [15]bool {
 	return [15]bool{
 		false,
