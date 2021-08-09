@@ -1,4 +1,4 @@
-const word = "[()]{}"
+const word = "[()]{})"
 
 const openBraces = new Map()
 openBraces.set("{", false)
