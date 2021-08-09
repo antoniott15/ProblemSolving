@@ -16,7 +16,7 @@ func main() {
 /**
  * LinioTest
  * maxNumber -> positive number
- * prints all numbers between 0 and maxNumber
+ * prints all numbers between 1 and maxNumber
  * if %3 then print Linio
  * if %5 then print IT
  * if %3 and %5 then print Linianos
