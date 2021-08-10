@@ -62,3 +62,11 @@ func BenchmarkLinioTest(b *testing.B) {
 		LinioTest(num)
 	}
 }
+
+func BenchmarkLinioConcurrentTestWaitGroups(b *testing.B) {
+
+	b.ResetTimer()
+
+	LinioConcurrentTestWaitGroups(uint(b.N))
+
+}
